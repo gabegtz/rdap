@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane fx:id="Main_Container" prefHeight="298.0" fx:controller="controllers.LoginController" prefWidth="512.0" styleClass="background" stylesheets="@remax_css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="agentID" alignment="TOP_LEFT" layoutX="81.0" layoutY="113.0" prefHeight="34.0" prefWidth="376.0" promptText="Agent ID">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" alignment="TOP_LEFT" layoutX="81.0" layoutY="170.0" prefHeight="34.0" prefWidth="376.0" promptText="Password">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </PasswordField>
+      <Group />
+      <Region layoutX="-1.0" layoutY="222.0" prefHeight="76.0" prefWidth="528.0" styleClass="regiontest" />
+      <Button fx:id="login" onAction="#userVer"  layoutX="155.0" layoutY="238.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="218.0" text="Login" />
+      <ImageView fitHeight="45.0" fitWidth="156.0" layoutX="81.0" layoutY="51.0">
+         <image>
+            <Image url="@REMAX.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

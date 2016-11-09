@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" fx:controller="controllers.MainController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fitHeight="45.0" fitWidth="156.0">
+            <image>
+                <Image url="@REMAX.png" />
+            </image>
+        </ImageView>
+        <Region layoutY="54.0" prefHeight="314.0" prefWidth="600.0" styleClass="regiontest" />
+        <Button fx:id="createprop"  layoutX="176.0" layoutY="66.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="249.0" text="Create Properties" />
+        <Button fx:id="viewprop" layoutX="176.0" layoutY="129.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="249.0" text="View Properties" />
+        <Button fx:id="moduser" layoutX="176.0" layoutY="255.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="249.0" text="Modify/Create User Entities" />
+        <Button fx:id="assignprop" layoutX="176.0" layoutY="190.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="249.0" text="Assign Properties" />
+        <Button fx:id="returntomain" layoutX="176.0" layoutY="317.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="249.0" text="Back" />
+    </children>
+</AnchorPane>
